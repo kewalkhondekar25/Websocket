@@ -1,0 +1,21 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "nodejs websocket servers ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Kewal Khondekar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2",
+    "ws": "^8.18.1"
+  }
+}
